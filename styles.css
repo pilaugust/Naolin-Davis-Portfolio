@@ -47,7 +47,7 @@ body::before {
     justify-content: space-evenly;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1100px) {
     .mainContent{
         flex-direction: column;
         gap: 2em;
@@ -57,7 +57,7 @@ body::before {
     }
 
     .homeBtn{
-        margin-top: -4em !important;
+        margin-top: -12em !important;
     }
 
     .aboutHeader{
@@ -72,8 +72,11 @@ body::before {
         flex-direction: column;
         justify-content: center !important;
         align-items: center !important;
-        margin-top: 3em;
-        padding: 0 !important;
+        margin-bottom: 3em;
+        padding-top: 2em !important;
+        padding-bottom: 2em !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
         text-align: center;
     }
 
@@ -85,7 +88,7 @@ body::before {
 
     .header{
         margin-top: 4em !important;
-        margin-bottom: 3em !important;
+        margin-bottom: 10em !important;
         flex-direction: column !important;
     }
 
@@ -106,6 +109,11 @@ body::before {
     .Btn:hover {
         scale: 1 !important;
         cursor: default !important;
+    }
+
+    .faqContainer{
+        margin-bottom: 2em !important;
+        width: 100vw;
     }
 }
 
@@ -304,6 +312,7 @@ a{
     background-color: rgba(0, 0, 0, 0.36);
     text-align: start;
     margin-top: 7em;
+    margin-bottom: 2em;
 }
 
 .modal {
